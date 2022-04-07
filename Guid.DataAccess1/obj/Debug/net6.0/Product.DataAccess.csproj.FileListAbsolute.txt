@@ -1,0 +1,17 @@
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\bin\Debug\net6.0\Product.DataAccess.deps.json
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\bin\Debug\net6.0\Product.DataAccess.runtimeconfig.json
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\bin\Debug\net6.0\Product.DataAccess.dll
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\bin\Debug\net6.0\ref\Product.DataAccess.dll
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\bin\Debug\net6.0\Product.DataAccess.pdb
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\bin\Debug\net6.0\Product.Domain.dll
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\bin\Debug\net6.0\Product.Domain.pdb
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\Product.DataAccess.csproj.AssemblyReference.cache
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\Product.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\Product.DataAccess.AssemblyInfoInputs.cache
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\Product.DataAccess.AssemblyInfo.cs
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\Product.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\Product.DataAccess.csproj.CopyComplete
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\Product.DataAccess.dll
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\ref\Product.DataAccess.dll
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\Product.DataAccess.pdb
+C:\Users\elis2\OneDrive - Objectivity Sp. z o.o\Academy\TODO\Guid.RestAPI\Guid.DataAccess1\obj\Debug\net6.0\Product.DataAccess.genruntimeconfig.cache
