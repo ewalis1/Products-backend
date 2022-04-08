@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using Product.Domain.Models;
-using Product.Services;
 
 namespace Product
 {
@@ -8,12 +7,12 @@ namespace Product
     {
         public static void RegisterServices(this IServiceCollection services)
         {
-            services.AddScoped<ProductsService, Services.ProductsService>();
+            services.AddTransient<ProductsService, ProductsService>();
         }
 
         public static void RegisterRepository(this IServiceCollection services)
         {
-            services.AddScoped<IProductsRepository, ProductsRepository>();
+            services.AddTransient<IProductsRepository, ProductsRepository>();
         }
     }
 }

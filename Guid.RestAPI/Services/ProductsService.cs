@@ -1,6 +1,6 @@
 ﻿using Product.Domain.Models;
 
-namespace Product.Services
+namespace Product
 {
     public class ProductsService : IProductsService
     {

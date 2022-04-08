@@ -2,7 +2,7 @@
 using Product.Domain.Models;
 
 
-namespace Product.Controllers
+namespace Product
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -27,8 +27,16 @@ namespace Product.Controllers
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<ActionResult<List<ProductsDto>>> GetAllProducts()
         {
-            var result = await _productsService.GetAllProductsAsync();
-            return !result.Any() ? NoContent() : Ok(result);
+            try
+            {
+                var result = await _productsService.GetAllProductsAsync();
+                return !result.Any() ? NoContent() : Ok(result);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new ArgumentException();
+            }
         }
 
         /// <summary>
@@ -40,8 +48,16 @@ namespace Product.Controllers
         [HttpGet("GetAllProductsById/{id}")]
         public async Task<ActionResult<ProductsDto>> GetProductById(Guid id)
         {
-            var result = await _productsService.GetProductByIdAsync(id);
-            return Ok(result);
+            try
+            {
+                var result = await _productsService.GetProductByIdAsync(id);
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new Exception();
+            }
         }
 
         /// <summary>
@@ -56,8 +72,16 @@ namespace Product.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<System.Guid>> CreateProducts(ProductsDto productsDto)
         {
-            await _productsService.CreateProductsAsync(productsDto);
-            return Ok();
+            try
+            {
+                await _productsService.CreateProductsAsync(productsDto);
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new Exception();
+            }
         }
 
         /// <summary>
@@ -69,8 +93,16 @@ namespace Product.Controllers
         [HttpPut("UpdateProducts/{id}")]
         public async Task<ActionResult> UpdateProductsAsync(System.Guid id, string description, int quantity)
         {
-            await _productsService.UpdateProductsAsync(id, description, quantity);
-            return Ok();
+            try
+            {
+                await _productsService.UpdateProductsAsync(id, description, quantity);
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new Exception();
+            }
         }
 
         /// <summary>
@@ -82,8 +114,16 @@ namespace Product.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteProductsAsync(System.Guid id)
         {
-            await _productsService.DeleteProductsAsync(id);
-            return Ok();
+            try
+            {
+                await _productsService.DeleteProductsAsync(id);
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new Exception();
+            }
         }
     }
 }
